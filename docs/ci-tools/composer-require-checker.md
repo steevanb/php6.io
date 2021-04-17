@@ -12,7 +12,7 @@ Dans les faits, une soft dependency n'est pas un problème : ça fonctionne.
 
 Mais si une mise à jour de cette autre dépendance supprime la dépendance que vous utilisez dans votre code : BOUM ;)
 
-Un autre problème peut survenir : si dans votre code vous partez du principe que vous utiliser la version X de cette soft dependency, 
+Un autre problème peut survenir : si dans votre code vous partez du principe que vous utilisez la version X de cette soft dependency, 
 et que suite à une mise à jour des dépendances elle est montée en version Y votre code a de grandes chances de ne plus fonctionner.
 Figer la version de cette dépendance dans votre `composer.json` est toujours une bonne idée : aucune chance qu'une autre dépendance la mette à jour.
 
