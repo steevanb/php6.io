@@ -51,7 +51,7 @@ et j'ai créé un [ticket de bug chez Symfony](https://github.com/symfony/symfon
 # Utilisation dans votre projet
 
 `composer-require-checker` n'est pas une dépendance à mettre dans votre `require-dev`,
-c'est un outil qui doit être lancé manuellement et donc il n'y a pas d'intérêt à ce qu'il soit installé en env de dev.
+c'est un outil qui doit être lancé manuellement et donc il n'y a pas d'intérêt à ce qu'il soit installé en env de `dev`.
 
 Si votre projet est en PHP 8.0 et n'a pas d'extensions PHP en  plus de celles installées par défaut avec l'image PHP officielle, 
 alors vous pouvez utiliser l'image [steevanb/composer-require-checker](https://hub.docker.com/r/steevanb/composer-require-checker).
