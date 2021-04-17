@@ -4,7 +4,7 @@
 | -- | -- |
 | ^2.4 | [Sélectionner certains champs d’une table](partial.html) |
 
-# Bugs
+# Bugs non corrigés
 
 | Version | Issue | Titre |
 | -- | -- | -- |
