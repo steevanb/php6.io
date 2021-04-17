@@ -8,4 +8,4 @@
 
 | Version | Issue | Titre |
 | -- | -- | -- |
-| ^2.0 | [#6751](https://github.com/doctrine/orm/issues/6751) | [EntityRepository et query hints par défaut](entity-repository-hint.md) |
+| ^2.0 | [#6751](https://github.com/doctrine/orm/issues/6751) | [EntityRepository et query hints par défaut](entity-repository-query-hint.html) |
