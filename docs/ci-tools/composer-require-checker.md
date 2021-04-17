@@ -63,6 +63,8 @@ dans votre `composer.json` sont bien installées et comme ce ne sera pas le cas 
 Vous allez donc devoir créer votre propre image Docker avec votre version de PHP et vos dépendances installées, et installer `composer-require-checker` dedans.
 Voilà un exemple : [Dockerfile](https://github.com/steevanb/docker-composer-require-checker/blob/master/docker/Dockerfile).
 
+Si vous utilisez déjà Docker dans votre projet, vous pouvez installer `composer-require-checker` en global dans votre image PHP.
+
 # Références
 
 ![Docker](/images/icons/github.png) [maglnet/composer-require-checker](https://github.com/maglnet/ComposerRequireChecker)
