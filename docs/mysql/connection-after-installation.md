@@ -16,7 +16,7 @@ Une fois connecté à MySQL en CLI exécutez ces requêtes SQL :
 ```sql
 FLUSH PRIVILEGES;
 USE mysql;
-UPDATE user SET authentication_string=PASSWORD("root) WHERE User='root';
+UPDATE user SET authentication_string=PASSWORD("root") WHERE User='root';
 UPDATE user SET plugin="mysql_native_password" WHERE User='root';
 exit;
 ```
