@@ -56,8 +56,8 @@ Voilà un exemple : [Dockerfile](https://github.com/steevanb/docker-composer-req
 
 # Références
 
-[maglnet/composer-require-checker](https://github.com/maglnet/ComposerRequireChecker)
+![Docker](/images/icons/github.png) [maglnet/composer-require-checker](https://github.com/maglnet/ComposerRequireChecker)
 
 ![Docker](/images/icons/docker.png) [steevanb/composer-require-checker](https://hub.docker.com/r/steevanb/composer-require-checker)
 
-[Issue #38448 chez symfony/Symfony](https://github.com/symfony/symfony/issues/38448)
+![Docker](/images/icons/github.png) [Issue #38448 chez symfony/symfony](https://github.com/symfony/symfony/issues/38448)
