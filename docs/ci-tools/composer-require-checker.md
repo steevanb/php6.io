@@ -6,6 +6,8 @@ Une soft dependency est une dépendance que vous utilisez dans votre projet mais
 
 `composer-require-checker` ira chercher tous les fichiers qui sont utilisables via l'autoload de Composer définis dans votre `composer.json` (clé `autoload` uniquement, la clé `autoload-dev` n'est pas lue) pour chercher leurs softs dependencies.
 
+Il vérifie également que les extensions PHP requises dans votre `composer.json` sont bien installées.
+
 # Problèmes liés aux softs dependencies
 
 Dans les faits, une soft dependency n'est pas un problème : ça fonctionne. 
@@ -14,9 +16,8 @@ Mais si une mise à jour de cette autre dépendance supprime la dépendance que 
 
 Un autre problème peut survenir : si dans votre code vous partez du principe que vous utilisez la version `X.0.0` de cette soft dependency, 
 et que suite à une mise à jour des dépendances elle est montée en version `Y.0.0` votre code a de grandes chances de ne plus fonctionner.
-Figer la version de cette dépendance dans votre `composer.json` est toujours une bonne idée : aucune chance qu'une autre dépendance la mette à jour.
 
-Il vérifie également que les extensions PHP requises dans votre `composer.json` sont bien installées.
+Figer la version de cette dépendance dans votre `composer.json` est toujours une bonne idée : aucune chance qu'une autre dépendance la mette à jour.
 
 # Exemple d'utilisation
 
