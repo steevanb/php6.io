@@ -1,4 +1,4 @@
-# Sélectionner certains champs d'une table avec Doctrine
+# Sélectionner certains champs d'une table
 
 Si vous voulez sélectionner seulement certains champs d'une table parmis les champs mappés, vous pouvez utiliser le mot-clé `PARTIAL` :
 
@@ -91,6 +91,8 @@ SELECT c0_.id as id_0 FROM foo
 
 # Références
 
-[Documentation à propos des hints](http://docs.doctrine-project.org/projects/doctrine-orm/en/latest/reference/dql-doctrine-query-language.html#query-hints)
+[Documentation du mot-clé PARTIAL](https://www.doctrine-project.org/projects/doctrine-orm/en/2.8/reference/partial-objects.html)
+
+[Documentation des hints](http://docs.doctrine-project.org/projects/doctrine-orm/en/latest/reference/dql-doctrine-query-language.html#query-hints)
 
 [SqlWalker qui gère le hint HINT_FORCE_PARTIAL_LOAD](https://github.com/doctrine/orm/blob/v2.5.4/lib/Doctrine/ORM/Query/SqlWalker.php#L705)
