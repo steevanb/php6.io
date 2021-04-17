@@ -29,7 +29,7 @@ cd /tmp/test
 docker run --tty --rm --volume $(pwd):/app steevanb/composer-require-checker:3.2.0
 ```
 
-```bash
+```
 ComposerRequireChecker 3.2.0@cd6c6b91ee3c065e60a35ca1a67becb0ae86dbb7
 The following 3 unknown symbols were found:
 +---------------------------------------------------------------------------------+--------------------+
