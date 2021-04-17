@@ -19,7 +19,7 @@ mais cette fonctionnalité a 2 défauts majeurs :
 Les commandes à `supprimer` (et pas `cacher`) 
 sont configurables via `config/packages/console.yaml` (et bien sûr par environnement via `config/packages/prod/console.yaml` par exemple).
 
-On peut par exemple cacher la commande `doctrine:schema:update` en prod et ainsi empêcher son exécution.
+On peut par exemple supprimer la commande `doctrine:schema:update` en prod et ainsi empêcher son exécution.
 
 # Coloriser des commandes dans la liste pour les faire ressortir
 
