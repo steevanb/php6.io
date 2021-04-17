@@ -1,6 +1,6 @@
 # maglnet/composer-require-checker
 
-[maglnet/composer-require-checker](https://github.com/maglnet/ComposerRequireChecker) est ou until fait en PHP qui analyse votre `composer.json` à la recherche des `softs dependencies`.
+[maglnet/composer-require-checker](https://github.com/maglnet/ComposerRequireChecker) est ou outil fait en PHP qui analyse votre `composer.json` à la recherche des `softs dependencies`.
 
 Une soft dependency est une dépendance que vous utilisez dans votre projet mais qui n'est pas directement ajoutée via votre `composer.json` mais via une autre dépendance qui elle est dans votre `composer.json`.
 
