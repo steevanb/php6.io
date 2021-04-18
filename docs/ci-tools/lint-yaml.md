@@ -20,7 +20,7 @@ Tous les fichiers YAML dans le répertoire `/app` du Container seront validés.
 docker run --rm -it --volume $(pwd):/app steevanb/symfony-yaml-lint:5.2.5
 ```
 
-### Résultat : fichier YAML avec une erreur de syntaxe
+## Résultat : fichier YAML avec une erreur de syntaxe
 
 Fichier YAML avec une erreur (il manque `:` après `services`) :
 ```yaml
@@ -29,7 +29,7 @@ services
 ```
 ![Format invalide](images/lint-yaml/invalid-format.png)
 
-### Résultat : pas d'erreur de syntaxe
+## Résultat : pas d'erreur de syntaxe
 
 ![Format valide](images/lint-yaml/valid.png)
 
