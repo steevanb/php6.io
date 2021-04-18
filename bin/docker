@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+set -eu
+
+readonly projectPath="$(realpath $(dirname $(realpath $0))/..)"
+
+DOCKER_BUILDKIT=1 \
+    docker \
+        build \
+            -t steevanb/php6.io:latest \
+            ${projectPath}/docker
