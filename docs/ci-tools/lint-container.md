@@ -55,10 +55,14 @@ class FooController
 On voit que `FooService::__construct()` attend une injection pour `$foo` de type `string`,
 alors que la configuration de l'injection de dépendance va lui envoyer une instance du service `@service_container`.
 
-Dans ce cas FooController ne peut pas être instancié, on aura cette erreur :
+Dans ce cas `FooController` ne peut pas être instancié, on aura cette erreur :
 ```
 Argument 1 passed to App\\FooService::__construct() must be of the type string, object given, called in /app/var/cache/dev/ContainerGM2E9nN/App_KernelDevDebugContainer.php on line 573
 ```
+
+Mais cette erreur ne sera pas levée au build du Container mais uniquement quand on aura besoin de `FooController` dans le code. 
+Dans notre exemple, les autres routes vont fonctionner, `bin/console` également : 
+on ne peut pas se rendre compte de l'erreur tant qu'on n'est pas sur l'url qui utilise `FooController`.
 
 Ce n'est pas le seul cas qui n'est pas détecté à la compilation du Container,
 voir [Service Container Linter](https://symfony.com/blog/new-in-symfony-4-4-service-container-linter) 
