@@ -35,7 +35,6 @@ services:
     App\FooService:
         bind:
             $foo: "@service_container"
-
 ```
 
 Injection de `FooService` :
