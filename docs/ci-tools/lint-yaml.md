@@ -15,7 +15,7 @@ L'image Docker [steevanb/symfony-yaml-lint](https://hub.docker.com/repository/do
 
 Tous les fichiers YAML dans le répertoire `/app` du Container seront validés.
 
-## Exemple
+## Utilisation simple
 ```bash
 docker run --rm -it --volume $(pwd):/app steevanb/symfony-yaml-lint:5.2.5
 ```
@@ -33,7 +33,7 @@ services
 
 ![Format valide](images/lint-yaml/valid.png)
 
-## Exemple avec configuration
+## Configuration de PHP et lint-yaml
 
 Vous pouvez configurer la commande via des variables d'env :
  * `LINT_YAML_PARAMETERS` : paramètres à passer à la commande `lint:yaml`
