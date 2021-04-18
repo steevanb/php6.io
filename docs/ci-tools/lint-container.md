@@ -71,7 +71,7 @@ pour un exemple des autres cas gérés.
 
 Le bundle [FrameworkBundle](https://github.com/symfony/framework-bundle) de Symfony contient une commande très intéressante : `lint:container`.
 
-Le container arrive bien à se builder malgré ces erreurs, donc la commande peut être lancée dans notre projet même si il y a cette erreur.
+Le Container arrive bien à se builder malgré ces erreurs, donc la commande peut être lancée dans notre projet même si il y a cette erreur.
 
 L'erreur est bien remontée par `lint:container` :
 
@@ -91,8 +91,7 @@ Après quelques tests, elle n'est pas si évidente à mettre en place :
 en le configurant pour faire fonctionner `CheckTypeDeclarationsPass`.
 
 Si vous avez une solution pour l'ajouter dans notre projet et ne pas avoir à lancer la commande, 
-on pourrait voir si c'est intéressant de la laisser en tant que commande
-ou si la baisse des performances est acceptable et on peut la mettre à chaque build du Container.
+on pourrait voir si la baisse des performances est acceptable et c'est intéressant de la mettre à chaque build du Container ou pas.
 
 # Références
 
