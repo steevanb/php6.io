@@ -15,10 +15,12 @@ L'image Docker [steevanb/symfony-yaml-lint](https://hub.docker.com/repository/do
 
 Tous les fichiers YAML dans le répertoire `/app` du Container seront validés.
 
-### Exemple
+## Exemple
 ```bash
 docker run --rm -it --volume $(pwd):/app steevanb/symfony-yaml-lint:5.2.5
 ```
+
+### Résultat : fichier YAML avec une erreur de syntaxe
 
 Fichier YAML avec une erreur (il manque `:` après `services`) :
 ```yaml
@@ -27,10 +29,11 @@ services
 ```
 ![Format invalide](images/lint-yaml/invalid-format.png)
 
-Pas d'erreur de syntaxe :
+### Résultat : pas d'erreur de syntaxe
+
 ![Format valide](images/lint-yaml/valid.png)
 
-### Exemple avec configuration
+## Exemple avec configuration
 
 Vous pouvez configurer la commande via des variables d'env :
  * `LINT_YAML_PARAMETERS` : paramètres à passer à la commande `lint:yaml`
