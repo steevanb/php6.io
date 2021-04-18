@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+set -eu
+
+readonly projectPath="$(realpath $(dirname $(realpath $0))/..)"
+
+docker run --rm -it -v $(pwd):/app -p 4000:4000 steevanb/php6.io:latest
