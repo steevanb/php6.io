@@ -9,13 +9,13 @@ Cependant d'autres cas peuvent être intéressants à tester :
  * Si vous n'êtes pas dans un contexte Symfony et que vous ne faites qu'utiliser le composant [symfony/yaml](https://github.com/symfony/yaml)
  * Si vous êtes dans un contexte Symfony mais que vous lancez la commande `symfony:yaml` depuis une image Docker séparée de votre projet (exemple : [steevanb/docker-symfony-yaml-lint](https://github.com/steevanb/docker-symfony-yaml-lint))
 
-# Exemple avec Docker
+# Utilisation avec Docker
 
 L'image Docker [steevanb/symfony-yaml-lint](https://hub.docker.com/repository/docker/steevanb/symfony-yaml-lint) vous permet de lancer `lint:yaml` sur votre projet sans installer le composant [symfony/yaml](https://github.com/symfony/yaml).
 
 Tous les fichiers YAML dans le répertoire `/app` du Container seront validés.
 
-## Utilisation simple
+## Exemple
 ```bash
 docker run --rm -it --volume $(pwd):/app steevanb/symfony-yaml-lint:5.2.5
 ```
