@@ -20,6 +20,16 @@ Tous les fichiers YAML dans le répertoire `/app` du Container seront validés.
 docker run --rm -it --volume $(pwd):/app steevanb/symfony-yaml-lint:5.2.5
 ```
 
+Fichier YAML avec une erreur (il manque `:` après `services`) :
+```yaml
+services
+    foo
+```
+![Format invalide](images/lint-yaml/invalid-format.png)
+
+Pas d'erreur de syntaxe :
+![Format valide](images/lint-yaml/valid.png)
+
 ### Exemple avec configuration
 
 Vous pouvez configurer la commande via des variables d'env :
