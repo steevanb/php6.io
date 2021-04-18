@@ -35,7 +35,7 @@ services
 
 ## Configuration de PHP et lint-yaml
 
-Vous pouvez configurer le container Docker via des variables d'env :
+Vous pouvez configurer PHP et la commande `lint:yaml` via des variables d'env :
  * `LINT_YAML_PARAMETERS` : paramètres à passer à la commande `lint:yaml`
  * `LINT_YAML_BOOTSTRAP` : fichier PHP à inclure avant d'exécuter la commande `lint:yaml`
  * `LINT_YAML_PHP_PARAMETERS` : paramètres de la commande `php`
