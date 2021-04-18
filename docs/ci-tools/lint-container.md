@@ -78,6 +78,21 @@ Cette commande aura un exit code à `1` en cas d'erreur et `0` quand tout va bie
 
 # Détecter ces erreurs via CheckTypeDeclarationsPass
 
+La [documentation de Symfony](https://symfony.com/blog/new-in-symfony-4-4-service-container-linter) indique que la commande `lint:container` fonctionne grâce à l'ajout d'une CompilerPass : `CheckTypeDeclarationsPass`.
+
+On doit pouvoir l'ajouter manuellement à notre projet pour effectuer cette vérification à chaque build du Container.
+
+Après quelques tests, elle n'est pas si évidente à mettre en place : 
+`lint:container` ne fait pas qu'ajouter cette CompilerPass, 
+[elle créé un nouveau ContainerBuilder](https://github.com/symfony/framework-bundle/blob/v5.2.0/Command/ContainerLintCommand.php#L125) 
+en le configurant pour faire fonctionner `CheckTypeDeclarationsPass`.
+
+Si vous avez une solution pour l'ajouter dans notre projet et ne pas avoir à lancer la commande, 
+on pourrait voir si c'est intéressant de la laisser en tant que commande
+ou si la baisse des performances est acceptable et on peut la mettre à chaque build du Container.
+
 # Références
 
 [Documenttion Symfony](https://symfony.com/blog/new-in-symfony-4-4-service-container-linter)
+
+[Configuration de CheckTypeDeclarationsPass](https://github.com/symfony/framework-bundle/blob/v5.2.0/Command/ContainerLintCommand.php#L125)
