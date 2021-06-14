@@ -24,10 +24,10 @@ description: Plein de tips sur PHP et son écosystème
 baseurl: ''
 url: 'https://php6.io'
 twitter_username: steevanb
-github_username:  steevanb
+github_username: steevanb
 
 # Build settings
-theme: minima
+#theme: minima
 #plugins:
 #    - jekyll-feed
 
