@@ -6,7 +6,7 @@ On pourrait penser que la compilation vérifie absolument tout pour que le Conta
 
 Cette mise en cache vérifie par exemple (liste non exhaustive) :
  * Que la classe du service existe
- * Que le bon nombre de paramètres indiqués dans `__construct()` est configuré ou l'autowire peut les trouver tout seul
+ * Que le bon nombre de paramètres indiqués dans `__construct()` est configuré ou que l'autowire peut les trouver tout seul
  * Même chose pour les [calls](https://symfony.com/doc/current/service_container/calls.html)
 
 Mais il y a une chose qu'il ne fait pas au moment du build : vérifier que le type de chaque paramètre qui est demandé dans le code est bien celui que le Container va injecter.

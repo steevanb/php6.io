@@ -2,6 +2,6 @@
 
 | Outil | Description |
 | -- | -- |
-| [composer-require-checker](https://github.com/maglnet/ComposerRequireChecker) | [Analyse des softs dependencies de Composer](composer-require-checker) |
-| [lint:container](https://symfony.com/blog/new-in-symfony-4-4-service-container-linter) | [Certifie que les types sont cohérents dans les injections de dépendance de Symfony](lint-container) |
-| [lint:yaml](https://symfony.com/doc/current/translation/lint.html) | [Certifie que le format des fichiers YAML est valide](lint-yaml) |
+| [composer-require-checker](composer-require-checker) | Analyse des softs dependencies de Composer |
+| [lint:container](lint-container) | Certifie que les types sont cohérents dans les injections de dépendance de Symfony |
+| [lint:yaml](lint-yaml) | Certifie que le format des fichiers YAML est valide |
