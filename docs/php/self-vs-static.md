@@ -1,3 +1,8 @@
+---
+title: self vs static
+mainMenu: php
+---
+
 # Contexte
 
 Quand vous utilisez des méthodes statiques dans des classes, 
