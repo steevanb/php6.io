@@ -1,3 +1,3 @@
 | Type | Titre |
 | -- | -- |
-| Configuration | [Regroupement des use](group-use.html) |
+| Configuration | [Regroupement des use](group-use) |
