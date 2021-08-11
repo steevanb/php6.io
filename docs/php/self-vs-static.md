@@ -88,7 +88,7 @@ a surchargé la méthode `outputInformations()` : c'est l'équivalent du comport
 On peut se demander pourquoi PHP n'a pas corrigé le mot-clé `self` au lieu de créer un nouveau mot-clé.
 
 `self` ayant un comportement bien précis, 
-il est fortement probable que des librairies ou du code dans des projets fonctionne grâce à ce comportement.
+il est fortement probable que des librairies ou du code dans des projets fonctionnent grâce à ce comportement.
 
 Changer `self` pour prendre en compte les surcharges aurait un impact potentiellement énorme sur le code existant.
 
