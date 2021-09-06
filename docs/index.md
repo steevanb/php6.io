@@ -1,6 +1,7 @@
 ---
 title: php6.io
 mainMenu: home
+regen: true
 ---
 
 | PHP | Doctrine | MySQL | Librairies | Outils de CI | PHPStorm |
