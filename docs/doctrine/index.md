@@ -3,6 +3,7 @@
 | Version | Titre |
 | -- | -- |
 | ^2.4 | [Sélectionner certains champs d’une table](partial) |
+| ^2.0 | [Bien coder une ManyToOne bidirectionnelle](bidirectional-many-to-one) |
 
 # Bugs non corrigés
 
