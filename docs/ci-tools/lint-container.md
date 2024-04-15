@@ -1,3 +1,8 @@
+---
+title: lint:container
+mainMenu: ci-tools
+---
+
 # Build du Container de Symfony
 
 Le Container de Symfony est buildé avant tout dans `var/cache/env/ContainerFoo` depuis les fichiers de configurations et les CompilerPass.

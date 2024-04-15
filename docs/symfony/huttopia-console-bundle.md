@@ -1,3 +1,8 @@
+---
+title: huttopia/console-bundle
+mainMenu: libraries
+---
+
 # huttopia/console-bundle
 
 Le bundle [huttopia/console-bundle](https://github.com/Huttopia/console-bundle) permet d'ajouter ces fonctionnalités

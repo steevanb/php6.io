@@ -1,3 +1,8 @@
+---
+title: Doctrine manyToOne bidirectionnelle
+mainMenu: doctrine
+---
+
 # Présentation
 
 Doctrine 2 permet de lier ses entités via 2 types de liaisons : `manyToOne` et `oneToOne`.

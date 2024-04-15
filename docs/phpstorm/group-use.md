@@ -1,3 +1,8 @@
+---
+title: Regroupement des use
+mainMenu: phpstorm
+---
+
 # Retour à la ligne après l'accolade ouvrante
 
 Par défaut PHPStorm met un retour à la ligne après l'accolade ouvrante du regroupement des uses

@@ -1,3 +1,8 @@
+---
+title: PARTIAL
+mainMenu: doctrine
+---
+
 # Sélectionner certains champs d'une table
 
 Si vous voulez sélectionner seulement certains champs d'une table parmis les champs mappés, vous pouvez utiliser le mot-clé `PARTIAL` :

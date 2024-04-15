@@ -1,3 +1,8 @@
+---
+title: lint:yaml
+mainMenu: ci-tools
+---
+
 # lint:yaml
 
 La commande `lint:yaml` du dépôt [symfony/yaml](https://github.com/symfony/yaml) permet de vérifier la syntaxe de fichiers YAML.

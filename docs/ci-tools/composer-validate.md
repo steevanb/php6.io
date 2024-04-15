@@ -1,3 +1,8 @@
+---
+title: composer validate
+mainMenu: ci-tools
+---
+
 # composer validate
 
 Cette commande de Composer permet de valider le format et le contenu du fichier `composer.json`.
