@@ -1,3 +1,8 @@
+---
+title: unused-scanner
+mainMenu: ci-tools
+---
+
 # unused-scanner
 
 [insolita/unused-scanner](https://github.com/Insolita/unused-scanner)

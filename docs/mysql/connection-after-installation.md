@@ -1,6 +1,11 @@
+---
+title: Connexion en root
+mainMenu: mysql
+---
+
 # Connexion en root impossible après installation
 
-A partir de Ubuntu 18.04 et MySQL 5.7, le mot de passe de root n'est pas demandé lors de l'installation.
+A partir d'Ubuntu 18.04 et MySQL 5.7, le mot de passe de `root` n'est pas demandé lors de l'installation.
 
 Voilà une méthode pour le définir :
 

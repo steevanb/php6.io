@@ -1,3 +1,8 @@
+---
+title: Outils de CI
+mainMenu: ci-tools
+---
+
 # Outils de CI
 
 | Outil | Description |

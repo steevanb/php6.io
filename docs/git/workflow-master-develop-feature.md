@@ -1,3 +1,8 @@
+---
+title: Workflow git
+mainMenu: git
+---
+
 # Présentation
 
 L'utilisation de git ne se résume pas à un schéma de branches fixes que tout le monde utilise.
@@ -17,14 +22,14 @@ via un outil comme GitLab ou Github.
 
  1. Le dernier commit mergé sur `master` depuis `develop` ou `hotfix-foo` doit être automatiquement taggé et livré en production 
  2. Création de la branche `develop` depuis `master`, aucun développement directement sur develop
- 3. Pour commencer une feature, on créé une branche `feature-foo` depuis `develop` : on ne code pas directement sur `feature-foo`
+ 3. Pour commencer une feature, on crée une branche `feature-foo` depuis `develop` : on ne code pas directement sur `feature-foo`
  4. On créé une branche `code-foo` depuis `feature-foo` pour coder l'intégralité d'un ticket
  5. On demande la revue de code technique, quand elle est validée `code-foo` est mergée sur `feature-foo`
  6. Déploiement automatisé de `feature-foo` sur un serveur pour être validé par la QA (tests fonctionnels) et le PO (toutes les demandes ont bien été traitées)
  7. Si la la QA ou le PO n'a pas validé, on refait une branche `code-foo` pour effectuer les corrections
  8. Une fois que la feature a été validée techniquement (étape 5), par la QA et le PO (étape 6), elle peut être mergée sur `develop`
  9. Tout merge sur `develop` doit être mergé au plus vite sur `master`, pour ne pas avoir plusieurs features mergées sur `develop` mais pas sur `master`
- 10. En cas de hotfix, on créé une branche `hotfix-foo` depuis `master`
+ 10. En cas de hotfix, on crée une branche `hotfix-foo` depuis `master`
  11. Revue de code technique, et en fonction de la criticité et de la rapidité de la correction, validation de la QA et du PO
  12. Une fois le hotfix mergé sur `master`, il faut rebase (et pas merge) `develop` de `master` pour récupérer le commit de hotfix sans changer son identifiant
 
@@ -79,8 +84,8 @@ Exemples :
  * Pour branche `feature-foo`, git va créer le fichier `.git/branches/feature-foo`
  * Pour une branche `feature/foo`, git va créer le fichier `.git/branches/feature/foo`
 
-Ca peut être bloquant si vous crééz une branche `feature/foo`, vous ne pourrez ensuite plus créer de branche `feature`
-parcequ'il sera impossible de créer un fichier qui a le même nom que le répertoire précédement créé.
+Ca peut être bloquant si vous créez une branche `feature/foo`, vous ne pourrez ensuite plus créer de branche `feature`
+parce qu'il sera impossible de créer un fichier qui a le même nom que le répertoire précédement créé.
 
 Pour éviter d'avoir ce genre de problèmes et de devoir supprimer manuellement des répertoires dans le répertoire `.git`,
 évitez de mettre des `/` dans le nom des branches.

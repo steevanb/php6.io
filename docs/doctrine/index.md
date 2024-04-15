@@ -1,3 +1,8 @@
+---
+title: Doctrine
+mainMenu: doctrine
+---
+
 # Tutoriels
 
 | Version | Titre |

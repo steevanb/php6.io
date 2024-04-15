@@ -1,3 +1,8 @@
+---
+title: composer-require-checker
+mainMenu: ci-tools
+---
+
 # maglnet/composer-require-checker
 
 [maglnet/composer-require-checker](https://github.com/maglnet/ComposerRequireChecker) est ou outil fait en PHP qui analyse votre `composer.json` à la recherche des `softs dependencies`.
