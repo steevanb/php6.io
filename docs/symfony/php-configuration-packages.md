@@ -1,11 +1,11 @@
 ---
-title: Fichiers de configuration en PHP
+title: Configuration des packages en PHP
 mainMenu: symfony
 ---
 
-# Pourquoi utiliser le format PHP pour vos fichiers de configuration ?
+# Pourquoi utiliser le format PHP pour la configuration de vos packages ?
  
- - Depuis 6.0, c'est le format qui est mis en avant, avec un très gros travail dans Symfony et les bundles
+ - Depuis Symfony 6.0, c'est le format qui est mis en avant, avec un très gros travail dans Symfony et les bundles
  - Autocomplétion des configurations possibles grâce aux classes de Config
  - Pas besoin de lire de la documentation pour savoir comment configurer : tout est disponible via du code PHP
  - On peut faire des `if`, des `for` etc
