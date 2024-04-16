@@ -142,3 +142,15 @@ $builder
     ->option('unsigned', true)
     ->build();
 ```
+
+# Validation du mapping
+
+Vous pouvez exécuter la commande `bin/console doctrine:mapping:info`
+pour vérifier que Doctrine trouve bien vos fichiers de mapping.
+
+La commande `bin/console doctrine:schema:validate` exécutera `doctrine:mapping:info`,
+et en plus, vérifiera que votre base de données correspond à votre mapping :
+qu'il ne manque pas de migrations, et qu'elles ont toutes été jouées.
+
+Si vous voulez voir ce que Doctrine veut faire de votre mapping dans votre base de données :
+`bin/console doctrine:schema:update --dump-sql`.
