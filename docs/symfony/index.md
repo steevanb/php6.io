@@ -3,11 +3,12 @@ title: Symfony
 mainMenu: symfony
 ---
 
-# Depuis la 6.0
+# Configuration en PHP
 
-| Spécificité                                                 | Description                                   |
-|-------------------------------------------------------------|-----------------------------------------------|
-| [Fichiers de configuration en PHP](configuration-files-php) | Fichiers de configuration en PHP              |
+| Configuration                                         | Description                              |
+|-------------------------------------------------------|------------------------------------------|
+| [config/packages](php-configuration-packages)         | Configuration des packages en PHP        |
+| [config/doctrine](php-configuration-doctrine-mapping) | Configuration du mapping Doctrine en PHP |
 
 # Bundles
 
