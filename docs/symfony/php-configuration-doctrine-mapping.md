@@ -114,6 +114,8 @@ use Doctrine\ORM\{
 $builder = new ClassMetadataBuilder($metadata);
 ```
 
+[Documentation de ClassMetadataBuilder](https://www.doctrine-project.org/projects/doctrine-orm/en/3.1/reference/php-mapping.html).
+
 ### #6 A vous de jouer
 
 A votre tour : c'est le moment de configurer votre entité, via `$builder`.
