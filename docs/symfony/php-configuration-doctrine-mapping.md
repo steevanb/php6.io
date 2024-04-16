@@ -118,7 +118,7 @@ $builder = new ClassMetadataBuilder($metadata);
 
 ### #6 A vous de jouer
 
-A votre tour : c'est le moment de configurer votre entité, via `$builder`.
+A votre tour : c'est le moment de configurer le mapping de votre entité, via `$builder`.
 
 Comme je suis assez sympa, je vous montre un exemple pour un identifiant :
 
