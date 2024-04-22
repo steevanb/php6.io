@@ -5,10 +5,11 @@ mainMenu: doctrine
 
 # Tutoriels
 
-| Version | Titre |
-| -- | -- |
-| ^2.4 | [Sélectionner certains champs d’une table](partial) |
+| Version | Titre                                                                 |
+| -- |-----------------------------------------------------------------------|
+| ^2.4 | [Sélectionner certains champs d’une table](partial)                   |
 | ^2.0 | [Bien coder une ManyToOne bidirectionnelle](bidirectional-many-to-one) |
+| ^2.0 | [Valeur par défaut des propriétés](properties-default-value)          |
 
 # Bugs non corrigés
 
