@@ -1,3 +1,8 @@
+---
+title: Valeur par défaut des propriétés
+mainMenu: doctrine
+---
+
 # Pas de valeur par défaut dans la signature des propriétés
 
 Toutes les valeurs des propriétés doivent être initialisées dans `__construct()`, surtout pas dans la signature !
